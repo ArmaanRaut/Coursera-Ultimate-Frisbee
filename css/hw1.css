@@ -96,3 +96,47 @@ section h2{
   color: rgb(0, 0, 255);
   text-decoration: underline;
 }
+
+/* Table data to edit */
+table{
+  margin: 0 auto;
+  color: #fff;
+  border-spacing: 0;
+  border-radius: 10px;
+}
+table tr{
+  opacity: .8;
+}
+table tr:hover{
+  opacity: 1;
+}
+table tr:first-child{
+  opacity: 1;
+}
+table tr th{
+  text-align: center;
+  background-color: rgb(9, 1, 114);
+  border: 1.5px solid #fff;
+  border-bottom: 2px solid #fff ;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+}
+table tr th:first-child{
+  text-align: left;
+}
+/* table tr:last-child td:last-child{
+  border-radius: 0 0 0 5px;
+  -webkit-border-radius: 0 0 5px 0;
+}
+table tr:last-child td:first-child{
+  border-radius: 0 0  0 5px;
+  -webkit-border-radius: 0 0 0 5px;
+} */
+table tr td{
+  border: 1.5px solid #fff;
+  padding: 1rem; 
+  margin: 1rem;
+  background: rgb(37, 27, 170);
+}
